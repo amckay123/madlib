@@ -2,7 +2,7 @@
 print("Hello! Welcome to Abby's awesome mad lib, ABB LIB!!!")
 playername = input("What is your name? Please type here and press enter when you're done. ")
 print(f"Welcome to ABB LIB, {playername}!")
-score = 0
+
 # Enter words
 print("To start, please write out some words.")
 name = input("Please type a NAME here and press enter when you're done. ")
