@@ -16,12 +16,25 @@ verb2 = input("Please type a VERB here and press enter when you're done. ")
 place = input("Please type a PLACE here and press enter when you're done. ")
 emotion = input("Please type an EMOTION here and press enter when you're done. ")
 action = input("Please type an ACTION here and press enter when you're done. ")
+colour = input("Please type a COLOUR here and press enter when you're done. ")
 action2 = input("Please type an ACTION here and press enter when you're done. ")
 adjective2 = input("Please type an ADJECTIVE here and press enter when you're done. ")
 
 # Write mad lib
+print(f"\nI, {playername}, decided to go on a vacation to {city} with my #1 bestest friend, {name}.")
+print("We desperately needed a break from this place.")
+print(f"We got to the airport {number} hours early. The sky was a disgusting {colour}.")
+print(f"When we went through security, I got stopped because I forgot to take granny's {object1} out of my pocket. Whoops!")
+print(f"We got some delicious {food} for the flight and finally arrived at the gate. Man, I really love to eat {food}.")
+print(f"Once we boarded the plane, I was unfortunately sitting next to a very {adjective} man. He smelled faintly of {emotion}.")
+print(f"He spent the entire flight {verb} and talking about his weird job doing {verb2}.")
+print(f"My bestie, {name}, was nowhere to be found. She probably bought first class tickets without telling me.")
+print(f"I thought to myself, ARRRRRRRRRRRGGG shiver me timbers, {name}, when I catch you..........")
+print(f"Then, I was brutally brought back to the present when the guy beside me {action2}.")
+print(f"Whenever I tried to sleep, he would step around me to go to the {place}.")
+print("He went more times than {number} people have fingers and toes.")
+print(f"I was so {emotion}. Since I couldn't sleep, I decided to spend my time going {action} and {action2} instead.")
+print(f"Finally, we arrived in {city}. All in all, the flight was {adjective2}!")
 
-print(f"\nI decided to go on a vacation to {city} with my #1 bestest friend, {name}. We got to the airport {number} hours early. When we went through security, I got stopped because I forgot to take granny's {object1} out of my pocket. We got some delicious {food} for the flight and finally arrived at the gate. Once we boarded the plane, I was unfortunately sitting next to a very {adjective} man. He spent the entire flight {verb} and talking about his weird job doing {verb2}. Whenever I tried to sleep, he would step around me to go to the {place}. I was so {emotion}. Since I couldn't sleep, I decided to go {action} and {action2} instead. Finally, we arrived in {city}. All in all, the flight was {adjective2}!")
-
-# Thanks for playing, name!
+# Thanks for playing
 print(f"\nThanks for playing, {playername}!")
